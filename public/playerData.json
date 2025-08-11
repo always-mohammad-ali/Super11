@@ -1,0 +1,22 @@
+[
+  { "name": "Karim Benzema", "age": 36, "nationality": "French", "current_club": "Al-Ittihad", "total_goals": 437, "market_value": 10000000, "image_url": "" },
+  { "name": "Thiago Silva", "age": 39, "nationality": "Brazilian", "current_club": "Chelsea", "total_goals": 52, "market_value": 2000000, "image_url": "" },
+  { "name": "Pierre-Emerick Aubameyang", "age": 35, "nationality": "Gabonese", "current_club": "Marseille", "total_goals": 310, "market_value": 3500000, "image_url": "" },
+  { "name": "Paul Pogba", "age": 31, "nationality": "French", "current_club": "Juventus", "total_goals": 81, "market_value": 5000000, "image_url": "" },
+  { "name": "Toni Kroos", "age": 34, "nationality": "German", "current_club": "Real Madrid", "total_goals": 95, "market_value": 7000000, "image_url": "" },
+  { "name": "Gerard Piqué", "age": 37, "nationality": "Spanish", "current_club": "Retired", "total_goals": 62, "market_value": 1000000, "image_url": "" },
+  { "name": "Eden Hazard", "age": 33, "nationality": "Belgian", "current_club": "Retired", "total_goals": 201, "market_value": 2000000, "image_url": "" },
+  { "name": "Raheem Sterling", "age": 29, "nationality": "English", "current_club": "Chelsea", "total_goals": 175, "market_value": 45000000, "image_url": "" },
+  { "name": "Antoine Griezmann", "age": 33, "nationality": "French", "current_club": "Atletico Madrid", "total_goals": 285, "market_value": 25000000, "image_url": "" },
+  { "name": "Sadio Mané", "age": 32, "nationality": "Senegalese", "current_club": "Al Nassr", "total_goals": 230, "market_value": 15000000, "image_url": "" },
+  { "name": "Cristiano Ronaldo", "age": 38, "nationality": "Portuguese", "current_club": "Al Nassr", "total_goals": 868, "market_value": 15000000, "image_url": "https://pbs.twimg.com/media/EyoQlxnWEAIp1aQ.jpg" },
+  { "name": "Virgil van Dijk", "age": 32, "nationality": "Dutch", "current_club": "Liverpool", "total_goals": 55, "market_value": 35000000, "image_url": "https://i.pinimg.com/originals/d1/84/fa/d184faec48c353141d4dcd0f046f4b9c.jpg" },
+  { "name": "Mohamed Salah", "age": 31, "nationality": "Egyptian", "current_club": "Liverpool", "total_goals": 312, "market_value": 65000000, "image_url": "https://s.hs-data.com/bilder/spieler/gross/173692.jpg" },
+  { "name": "Luka Modrić", "age": 37, "nationality": "Croatian", "current_club": "Real Madrid", "total_goals": 82, "market_value": 5000000, "image_url": "https://i.pinimg.com/1200x/65/da/dc/65dadc31e8fca26c46af820d4f9660df.jpg" },
+  { "name": "Sergio Ramos", "age": 38, "nationality": "Spanish", "current_club": "Sevilla", "total_goals": 134, "market_value": 3000000, "image_url": "https://i.pinimg.com/736x/d1/d9/fe/d1d9fe8c6a6e401c7531c8f5062bc092.jpg" },
+  { "name": "Robert Lewandowski", "age": 35, "nationality": "Polish", "current_club": "Barcelona", "total_goals": 645, "market_value": 20000000, "image_url": "https://s.hs-data.com/bilder/spieler/gross/119750.jpg" },
+  { "name": "Kevin De Bruyne", "age": 32, "nationality": "Belgian", "current_club": "Manchester City", "total_goals": 180, "market_value": 55000000, "image_url": "https://pbs.twimg.com/media/GXdMmYeWAAAX6xI?format=jpg&name=large" },
+  { "name": "Kylian Mbappé", "age": 25, "nationality": "French", "current_club": "Paris Saint-Germain", "total_goals": 256, "market_value": 180000000, "image_url": "https://i.guim.co.uk/img/media/561d0ceccca80741e27b2033c1d4cb5d7f7d7acb/0_0_6000_4000/master/3191.jpg?width=445&dpr=1&s=none&crop=none" },
+  { "name": "Neymar Jr.", "age": 32, "nationality": "Brazilian", "current_club": "Al Hilal", "total_goals": 300, "market_value": 50000000, "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Neymar_2015.jpg" },
+  { "name": "Lionel Messi", "age": 36, "nationality": "Argentine", "current_club": "Inter Miami", "total_goals": 819, "market_value": 50000000, "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lionel_Messi%2C_Player_of_FC_Barcelona_team.JPG" }
+]

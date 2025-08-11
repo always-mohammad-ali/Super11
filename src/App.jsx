@@ -1,12 +1,18 @@
-
+import './index.css'
 import './App.css'
+import Header from './Components/Header/Header'
 
 function App() {
- 
+  
+
+
 
   return (
     <>
-     <h1>Super11</h1>
+     
+     <Header></Header>
+
+     
     </>
   )
 }
