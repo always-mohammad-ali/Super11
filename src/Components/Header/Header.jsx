@@ -1,8 +1,11 @@
-import React from 'react';
+
 import logo from '../../assets/logo.png';
 import { CiBitcoin } from 'react-icons/ci';
 
-const Header = () => {
+
+const Header = ({coin}) => {
+    
+
     return (
         <div>
             <div className='flex flex-col md:flex-row md:justify-between md:w-4/5 md:mx-auto '>
@@ -14,10 +17,12 @@ const Header = () => {
                     <button><a href="sturdy-patch.surge.sh">Fixture</a></button>
                     <button><a href="sturdy-patch.surge.sh">Teams</a></button>
                     <button><a href="sturdy-patch.surge.sh">Schedules</a></button>
-                    <p className='flex flex-row gap-1 items-center font-bold'>Coin<span className='text-2xl text-orange-500'><CiBitcoin/></span></p>
+                    <p className='flex flex-row gap-1 items-center font-bold'>{coin}$ Coin<span className='text-2xl text-orange-500'><CiBitcoin/></span></p>
                     
                 </div>
             </div>
+
+            
         </div>
     );
 };
