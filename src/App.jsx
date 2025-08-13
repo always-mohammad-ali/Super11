@@ -13,6 +13,15 @@ function App() {
           setCoin(totalCoin)
     }
 
+    const handleMarketValue = currentMarketValue =>{
+      const newTotalCoinAfterValue = coin - currentMarketValue;
+      if(newTotalCoinAfterValue<=currentMarketValue){
+                console.log('it is not possible to go minus')
+      }
+      setCoin(newTotalCoinAfterValue)
+      
+    }
+
 
 
   return (
@@ -20,7 +29,7 @@ function App() {
      
      <Header coin={coin}></Header>
      <Hero handleTotalCoin={handleTotalCoin}></Hero>
-     <AllPlayer></AllPlayer>
+     <AllPlayer handleMarketValue={handleMarketValue}></AllPlayer>
      
     </>
   )

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Player from '../Player/Player';
 
-const AllPlayer = () => {
+const AllPlayer = ({handleMarketValue}) => {
     const [playerData, setPlayerData] = useState([]);
 
     useEffect(()=>{
@@ -24,7 +24,7 @@ const AllPlayer = () => {
             </div>
             <div className='grid grid-cols-3 w-5/6 mx-auto gap-x-8 gap-y-12 '>
               {
-                playerData.map(playerData => <Player playerData={playerData}></Player> )
+                playerData.map(playerData => <Player playerData={playerData} handleMarketValue={handleMarketValue}></Player> )
               }
             </div>
             

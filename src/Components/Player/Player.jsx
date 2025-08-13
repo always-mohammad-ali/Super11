@@ -3,7 +3,7 @@ import { BsPersonCheckFill } from "react-icons/bs";
 import { FaFlag } from "react-icons/fa";
 
 
-const Player = ({playerData}) => {
+const Player = ({playerData, handleMarketValue}) => {
     const {name, nationality, current_club, total_goals, market_value, image_url, player_position} = playerData;
     return (
         <div className=''>
@@ -38,8 +38,8 @@ const Player = ({playerData}) => {
 
 
                     <div className='flex gap-8'>
-                            <p className='text-gray-600'><span className='font-bold '>Value: </span>{market_value}</p>  
-                            <button className='font-bold'>Choose Player</button>
+                            <p className='text-gray-600'><span className='font-bold '>Value: </span>{market_value}$</p>  
+                            <button onClick={() => {handleMarketValue(market_value)}} className='font-bold'>Choose Player</button>
                     </div>
                         
                 </div>
